@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 5000;
 // ✅ CORS CONFIG (FIXED FOR LOCAL + PRODUCTION)
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://team-task-manager-1wve.vercel.app/"
+  "https://team-task-manager-1wve.vercel.app"
 ];
 
 app.use(
